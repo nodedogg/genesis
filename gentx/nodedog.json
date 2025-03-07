@@ -1,0 +1,64 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "🐶 Nodedog 🐶",
+          "identity": "19F3F14B17601D7D",
+          "website": "https://nodedog.io",
+          "security_contact": "",
+          "details": "Enterprise-grade staking made easy"
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.200000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "",
+        "validator_address": "unionvaloper1h575vl89ynj04tpulnazd59h2sg6hscfqp8vu6",
+        "pubkey": {
+          "@type": "/cosmos.crypto.bn254.PubKey",
+          "key": "2GAkMLm/5O2v6/GTE/sLw3fePDH+toUIrRx7Vao+5H8="
+        },
+        "value": {
+          "denom": "upoa",
+          "amount": "1"
+        }
+      }
+    ],
+    "memo": "394193bce8050a1e90bbc178eacbf6e98d6d310f@127.0.0.1:26656",
+    "timeout_height": "0",
+    "unordered": false,
+    "timeout_timestamp": "0001-01-01T00:00:00Z",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/cosmos.crypto.secp256k1.PubKey",
+          "key": "A4KUHyqxC0KvhSDnSQkz2cgNc10JHqB+xuzosdo94zNz"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    },
+    "tip": null
+  },
+  "signatures": [
+    "ot/Bgsv9NPjYit1rqYRT3zDgeFbASvAuFnxSblq67s4vh0KHs4RvtVB2LvYUpVe63yp4xxEUwZlcXHnB/45quw=="
+  ]
+}
